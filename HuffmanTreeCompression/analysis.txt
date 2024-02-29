@@ -1,0 +1,989 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    68788     0.00     0.00  FancyInputStream::read_bit()
+  0.00      0.00     0.00    23226     0.00     0.00  FancyInputStream::good() const
+  0.00      0.00     0.00    23225     0.00     0.00  FancyOutputStream::write_byte(unsigned char const&)
+  0.00      0.00     0.00    23225     0.00     0.00  HCTree::decode(FancyInputStream&) const
+  0.00      0.00     0.00     8716     0.00     0.00  FancyInputStream::read_byte()
+  0.00      0.00     0.00     6639     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&)
+  0.00      0.00     0.00     6386     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const
+  0.00      0.00     0.00     5468     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const
+  0.00      0.00     0.00     3024     0.00     0.00  std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&)
+  0.00      0.00     0.00     1624     0.00     0.00  HCNodePtrComp::operator()(HCNode*&, HCNode*&) const
+  0.00      0.00     0.00     1414     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::base() const
+  0.00      0.00     0.00     1149     0.00     0.00  std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&)
+  0.00      0.00     0.00     1012     0.00     0.00  bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >)
+  0.00      0.00     0.00      699     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&)
+  0.00      0.00     0.00      612     0.00     0.00  bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&)
+  0.00      0.00     0.00      470     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::end()
+  0.00      0.00     0.00      470     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::begin()
+  0.00      0.00     0.00      470     0.00     0.00  HCNode* const& std::forward<HCNode* const&>(std::remove_reference<HCNode* const&>::type&)
+  0.00      0.00     0.00      460     0.00     0.00  void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&)
+  0.00      0.00     0.00      372     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long) const
+  0.00      0.00     0.00      257     0.00     0.00  std::vector<int, std::allocator<int> >::size() const
+  0.00      0.00     0.00      231     0.00     0.00  HCNode::HCNode(int, unsigned char)
+  0.00      0.00     0.00      231     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode* const* const&)
+  0.00      0.00     0.00      231     0.00     0.00  __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(HCNodePtrComp)
+  0.00      0.00     0.00      231     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const
+  0.00      0.00     0.00      231     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator-(long) const
+  0.00      0.00     0.00      231     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::top() const
+  0.00      0.00     0.00      231     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::begin() const
+  0.00      0.00     0.00      231     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::front() const
+  0.00      0.00     0.00      231     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop()
+  0.00      0.00     0.00      231     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&)
+  0.00      0.00     0.00      231     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::pop_back()
+  0.00      0.00     0.00      231     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&)
+  0.00      0.00     0.00      231     0.00     0.00  void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp)
+  0.00      0.00     0.00      231     0.00     0.00  void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp)
+  0.00      0.00     0.00      231     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.00     0.00      229     0.00     0.00  __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator--()
+  0.00      0.00     0.00      229     0.00     0.00  __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&&)
+  0.00      0.00     0.00      229     0.00     0.00  __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::_Iter_comp_iter(HCNodePtrComp)
+  0.00      0.00     0.00      229     0.00     0.00  void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&)
+  0.00      0.00     0.00      229     0.00     0.00  void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>)
+  0.00      0.00     0.00      229     0.00     0.00  std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&)
+  0.00      0.00     0.00      148     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::size() const
+  0.00      0.00     0.00      117     0.00     0.00  FancyInputStream::read_int()
+  0.00      0.00     0.00      116     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::size() const
+  0.00      0.00     0.00      116     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::operator[](unsigned long)
+  0.00      0.00     0.00      116     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long)
+  0.00      0.00     0.00       48     0.00     0.00  HCNode** std::__niter_base<HCNode**>(HCNode**)
+  0.00      0.00     0.00       24     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       18     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.00     0.00       17     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00       17     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&)
+  0.00      0.00     0.00       16     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const
+  0.00      0.00     0.00       16     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&)
+  0.00      0.00     0.00       16     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_do_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&, std::integral_constant<bool, true>)
+  0.00      0.00     0.00       16     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_use_relocate()
+  0.00      0.00     0.00       16     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_nothrow_relocate(std::integral_constant<bool, true>)
+  0.00      0.00     0.00       16     0.00     0.00  HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&)
+  0.00      0.00     0.00       16     0.00     0.00  std::enable_if<std::__is_bitwise_relocatable<HCNode*, void>::value, HCNode**>::type std::__relocate_a_1<HCNode*, HCNode*>(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&)
+  0.00      0.00     0.00       12     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long)
+  0.00      0.00     0.00        9     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        9     0.00     0.00  std::__new_allocator<HCNode*>::deallocate(HCNode**, unsigned long)
+  0.00      0.00     0.00        9     0.00     0.00  std::__new_allocator<HCNode*>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        8     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.00     0.00        8     0.00     0.00  void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&)
+  0.00      0.00     0.00        8     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.00     0.00        7     0.00     0.00  std::__new_allocator<HCNode*>::~__new_allocator()
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_copy_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data const&)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data()
+  0.00      0.00     0.00        5     0.00     0.00  void std::_Destroy_aux<true>::__destroy<HCNode**>(HCNode**, HCNode**)
+  0.00      0.00     0.00        5     0.00     0.00  void std::_Destroy<HCNode**>(HCNode**, HCNode**)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base()
+  0.00      0.00     0.00        4     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::~vector()
+  0.00      0.00     0.00        3     0.00     0.00  std::__new_allocator<int>::~__new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::vector()
+  0.00      0.00     0.00        2     0.00     0.00  std::__size_to_integer(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  helper(HCNode*)
+  0.00      0.00     0.00        1     0.00     0.00  FancyInputStream::FancyInputStream(char const*)
+  0.00      0.00     0.00        1     0.00     0.00  FancyInputStream::~FancyInputStream()
+  0.00      0.00     0.00        1     0.00     0.00  FancyOutputStream::flush_bitwise()
+  0.00      0.00     0.00        1     0.00     0.00  FancyOutputStream::flush()
+  0.00      0.00     0.00        1     0.00     0.00  FancyOutputStream::FancyOutputStream(char const*)
+  0.00      0.00     0.00        1     0.00     0.00  FancyOutputStream::~FancyOutputStream()
+  0.00      0.00     0.00        1     0.00     0.00  HCTree::build(std::vector<int, std::allocator<int> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  HCTree::HCTree()
+  0.00      0.00     0.00        1     0.00     0.00  HCTree::~HCTree()
+  0.00      0.00     0.00        1     0.00     0.00  FancyInputStream::filesize() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::get_allocator() const
+  0.00      0.00     0.00        1     0.00     0.00  std::fpos<__mbstate_t>::operator long() const
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_create_storage(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::priority_queue<std::vector<HCNode*, std::allocator<HCNode*> >, void>()
+  0.00      0.00     0.00        1     0.00     0.00  std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::~priority_queue()
+  0.00      0.00     0.00        1     0.00     0.00  std::__new_allocator<int>::deallocate(int*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::__new_allocator<int>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        1     0.00     0.00  HCNode** std::__uninitialized_fill_n<true>::__uninit_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::clear()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::vector(std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  HCNode** std::__fill_n_a<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::random_access_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&, std::random_access_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  HCNode** std::uninitialized_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  HCNode** std::__uninitialized_fill_n_a<HCNode**, unsigned long, HCNode*, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::allocator<HCNode*>&)
+  0.00      0.00     0.00        1     0.00     0.00  int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int const&, std::allocator<int>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::remove_reference<std::allocator<HCNode*>&>::type&& std::move<std::allocator<HCNode*>&>(std::allocator<HCNode*>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::remove_reference<std::vector<HCNode*, std::allocator<HCNode*> >&>::type&& std::move<std::vector<HCNode*, std::allocator<HCNode*> >&>(std::vector<HCNode*, std::allocator<HCNode*> >&)
+  0.00      0.00     0.00        1     0.00     0.00  HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__fill_a<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__fill_a<int*, int>(int*, int*, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::__enable_if<std::__is_scalar<HCNode*>::__value, void>::__type std::__fill_a1<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*, int>(int*, int*, int const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2023 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00   68788/68788       HCTree::decode(FancyInputStream&) const [8]
+[5]      0.0    0.00    0.00   68788         FancyInputStream::read_bit() [5]
+                0.00    0.00    8599/8716        FancyInputStream::read_byte() [9]
+-----------------------------------------------
+                0.00    0.00   23226/23226       main [4]
+[6]      0.0    0.00    0.00   23226         FancyInputStream::good() const [6]
+-----------------------------------------------
+                0.00    0.00   23225/23225       main [4]
+[7]      0.0    0.00    0.00   23225         FancyOutputStream::write_byte(unsigned char const&) [7]
+-----------------------------------------------
+                0.00    0.00   23225/23225       main [4]
+[8]      0.0    0.00    0.00   23225         HCTree::decode(FancyInputStream&) const [8]
+                0.00    0.00   68788/68788       FancyInputStream::read_bit() [5]
+-----------------------------------------------
+                0.00    0.00     117/8716        main [4]
+                0.00    0.00    8599/8716        FancyInputStream::read_bit() [5]
+[9]      0.0    0.00    0.00    8716         FancyInputStream::read_byte() [9]
+-----------------------------------------------
+                0.00    0.00     231/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator-(long) const [30]
+                0.00    0.00     470/6639        std::vector<HCNode*, std::allocator<HCNode*> >::begin() [21]
+                0.00    0.00     470/6639        std::vector<HCNode*, std::allocator<HCNode*> >::end() [20]
+                0.00    0.00    5468/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const [12]
+[10]     0.0    0.00    0.00    6639         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [10]
+-----------------------------------------------
+                0.00    0.00     231/6386        void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+                0.00    0.00     612/6386        bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&) [19]
+                0.00    0.00     687/6386        void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+                0.00    0.00     778/6386        void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+                0.00    0.00    2024/6386        bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >) [17]
+                0.00    0.00    2054/6386        void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[11]     0.0    0.00    0.00    6386         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+-----------------------------------------------
+                0.00    0.00    1390/5468        void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+                0.00    0.00    4078/5468        void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[12]     0.0    0.00    0.00    5468         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const [12]
+                0.00    0.00    5468/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [10]
+-----------------------------------------------
+                0.00    0.00     462/3024        void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+                0.00    0.00     619/3024        void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+                0.00    0.00     687/3024        void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+                0.00    0.00    1256/3024        void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[13]     0.0    0.00    0.00    3024         std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&) [13]
+-----------------------------------------------
+                0.00    0.00     612/1624        bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&) [19]
+                0.00    0.00    1012/1624        bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >) [17]
+[14]     0.0    0.00    0.00    1624         HCNodePtrComp::operator()(HCNode*&, HCNode*&) const [14]
+-----------------------------------------------
+                0.00    0.00      16/1414        void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00    1398/1414        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+[15]     0.0    0.00    0.00    1414         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::base() const [15]
+-----------------------------------------------
+                0.00    0.00     229/1149        void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+                0.00    0.00     229/1149        __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::_Iter_comp_iter(HCNodePtrComp) [43]
+                0.00    0.00     229/1149        __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&&) [42]
+                0.00    0.00     231/1149        void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+                0.00    0.00     231/1149        __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(HCNodePtrComp) [28]
+[16]     0.0    0.00    0.00    1149         std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+-----------------------------------------------
+                0.00    0.00    1012/1012        void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[17]     0.0    0.00    0.00    1012         bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >) [17]
+                0.00    0.00    2024/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00    1012/1624        HCNodePtrComp::operator()(HCNode*&, HCNode*&) const [14]
+-----------------------------------------------
+                0.00    0.00       8/699         void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00     229/699         void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+                0.00    0.00     231/699         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+                0.00    0.00     231/699         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+[18]     0.0    0.00    0.00     699         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+                0.00    0.00    1398/1414        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::base() const [15]
+-----------------------------------------------
+                0.00    0.00     612/612         void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+[19]     0.0    0.00    0.00     612         bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&) [19]
+                0.00    0.00     612/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00     612/1624        HCNodePtrComp::operator()(HCNode*&, HCNode*&) const [14]
+-----------------------------------------------
+                0.00    0.00       8/470         std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+                0.00    0.00     231/470         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+                0.00    0.00     231/470         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+[20]     0.0    0.00    0.00     470         std::vector<HCNode*, std::allocator<HCNode*> >::end() [20]
+                0.00    0.00     470/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [10]
+-----------------------------------------------
+                0.00    0.00       8/470         void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00     231/470         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+                0.00    0.00     231/470         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+[21]     0.0    0.00    0.00     470         std::vector<HCNode*, std::allocator<HCNode*> >::begin() [21]
+                0.00    0.00     470/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [10]
+-----------------------------------------------
+                0.00    0.00      24/470         void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00     446/470         std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+[22]     0.0    0.00    0.00     470         HCNode* const& std::forward<HCNode* const&>(std::remove_reference<HCNode* const&>::type&) [22]
+-----------------------------------------------
+                0.00    0.00     229/460         void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+                0.00    0.00     231/460         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+[23]     0.0    0.00    0.00     460         void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+                0.00    0.00    1390/5468        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const [12]
+                0.00    0.00     778/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00     619/3024        std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&) [13]
+                0.00    0.00     612/612         bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&) [19]
+-----------------------------------------------
+                0.00    0.00     372/372         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[24]     0.0    0.00    0.00     372         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [24]
+-----------------------------------------------
+                0.00    0.00     257/257         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[25]     0.0    0.00    0.00     257         std::vector<int, std::allocator<int> >::size() const [25]
+-----------------------------------------------
+                0.00    0.00     231/231         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[26]     0.0    0.00    0.00     231         HCNode::HCNode(int, unsigned char) [26]
+-----------------------------------------------
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::begin() const [32]
+[27]     0.0    0.00    0.00     231         __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode* const* const&) [27]
+-----------------------------------------------
+                0.00    0.00     231/231         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+[28]     0.0    0.00    0.00     231         __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(HCNodePtrComp) [28]
+                0.00    0.00     231/1149        std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+-----------------------------------------------
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::front() const [33]
+[29]     0.0    0.00    0.00     231         __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [29]
+-----------------------------------------------
+                0.00    0.00     231/231         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+[30]     0.0    0.00    0.00     231         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator-(long) const [30]
+                0.00    0.00     231/6639        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [10]
+-----------------------------------------------
+                0.00    0.00     231/231         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[31]     0.0    0.00    0.00     231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::top() const [31]
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::front() const [33]
+-----------------------------------------------
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::front() const [33]
+[32]     0.0    0.00    0.00     231         std::vector<HCNode*, std::allocator<HCNode*> >::begin() const [32]
+                0.00    0.00     231/231         __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode* const* const&) [27]
+-----------------------------------------------
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::top() const [31]
+[33]     0.0    0.00    0.00     231         std::vector<HCNode*, std::allocator<HCNode*> >::front() const [33]
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::begin() const [32]
+                0.00    0.00     231/231         __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [29]
+-----------------------------------------------
+                0.00    0.00     231/231         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[34]     0.0    0.00    0.00     231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+                0.00    0.00     231/470         std::vector<HCNode*, std::allocator<HCNode*> >::end() [20]
+                0.00    0.00     231/470         std::vector<HCNode*, std::allocator<HCNode*> >::begin() [21]
+                0.00    0.00     231/231         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::pop_back() [36]
+-----------------------------------------------
+                0.00    0.00     231/231         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[35]     0.0    0.00    0.00     231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+                0.00    0.00     231/470         std::vector<HCNode*, std::allocator<HCNode*> >::end() [20]
+                0.00    0.00     231/231         std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+                0.00    0.00     231/470         std::vector<HCNode*, std::allocator<HCNode*> >::begin() [21]
+                0.00    0.00     231/231         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+-----------------------------------------------
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+[36]     0.0    0.00    0.00     231         std::vector<HCNode*, std::allocator<HCNode*> >::pop_back() [36]
+-----------------------------------------------
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+[37]     0.0    0.00    0.00     231         std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+                0.00    0.00     446/470         HCNode* const& std::forward<HCNode* const&>(std::remove_reference<HCNode* const&>::type&) [22]
+                0.00    0.00     223/231         operator new(unsigned long, void*) [40]
+                0.00    0.00       8/470         std::vector<HCNode*, std::allocator<HCNode*> >::end() [20]
+                0.00    0.00       8/8           void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+-----------------------------------------------
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+[38]     0.0    0.00    0.00     231         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+                0.00    0.00     231/699         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+                0.00    0.00     229/1149        std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+                0.00    0.00     229/229         __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::_Iter_comp_iter(HCNodePtrComp) [43]
+                0.00    0.00     229/229         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator--() [41]
+                0.00    0.00     229/229         void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+-----------------------------------------------
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+[39]     0.0    0.00    0.00     231         void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [39]
+                0.00    0.00     462/3024        std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&) [13]
+                0.00    0.00     231/231         __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(HCNodePtrComp) [28]
+                0.00    0.00     231/1149        std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+                0.00    0.00     231/231         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator-(long) const [30]
+                0.00    0.00     231/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00     231/699         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+                0.00    0.00     231/460         void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+-----------------------------------------------
+                0.00    0.00       8/231         void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00     223/231         std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+[40]     0.0    0.00    0.00     231         operator new(unsigned long, void*) [40]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+[41]     0.0    0.00    0.00     229         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator--() [41]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[42]     0.0    0.00    0.00     229         __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&&) [42]
+                0.00    0.00     229/1149        std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+[43]     0.0    0.00    0.00     229         __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::_Iter_comp_iter(HCNodePtrComp) [43]
+                0.00    0.00     229/1149        std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&) [16]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp) [38]
+[44]     0.0    0.00    0.00     229         void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+                0.00    0.00     687/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00     687/3024        std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&) [13]
+                0.00    0.00     229/699         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+                0.00    0.00     229/229         void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [44]
+[45]     0.0    0.00    0.00     229         void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+                0.00    0.00    4078/5468        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const [12]
+                0.00    0.00    2054/6386        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [11]
+                0.00    0.00    1256/3024        std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&) [13]
+                0.00    0.00    1012/1012        bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >) [17]
+                0.00    0.00     229/229         std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [46]
+                0.00    0.00     229/229         __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&&) [42]
+                0.00    0.00     229/460         void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&) [23]
+-----------------------------------------------
+                0.00    0.00     229/229         void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>) [45]
+[46]     0.0    0.00    0.00     229         std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&) [46]
+-----------------------------------------------
+                0.00    0.00      32/148         std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [68]
+                0.00    0.00     116/148         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::size() const [49]
+[47]     0.0    0.00    0.00     148         std::vector<HCNode*, std::allocator<HCNode*> >::size() const [47]
+-----------------------------------------------
+                0.00    0.00     117/117         main [4]
+[48]     0.0    0.00    0.00     117         FancyInputStream::read_int() [48]
+-----------------------------------------------
+                0.00    0.00     116/116         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[49]     0.0    0.00    0.00     116         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::size() const [49]
+                0.00    0.00     116/148         std::vector<HCNode*, std::allocator<HCNode*> >::size() const [47]
+-----------------------------------------------
+                0.00    0.00     116/116         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[50]     0.0    0.00    0.00     116         std::vector<HCNode*, std::allocator<HCNode*> >::operator[](unsigned long) [50]
+-----------------------------------------------
+                0.00    0.00     116/116         main [4]
+[51]     0.0    0.00    0.00     116         std::vector<int, std::allocator<int> >::operator[](unsigned long) [51]
+-----------------------------------------------
+                0.00    0.00      48/48          HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [62]
+[52]     0.0    0.00    0.00      48         HCNode** std::__niter_base<HCNode**>(HCNode**) [52]
+-----------------------------------------------
+                0.00    0.00       1/24          std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&) [121]
+                0.00    0.00       1/24          std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**) [119]
+                0.00    0.00       2/24          std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+                0.00    0.00       4/24          std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+                0.00    0.00      16/24          void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[53]     0.0    0.00    0.00      24         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+-----------------------------------------------
+                0.00    0.00       1/18          std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&) [126]
+                0.00    0.00      17/18          std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&) [56]
+[54]     0.0    0.00    0.00      18         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [54]
+-----------------------------------------------
+                0.00    0.00       1/17          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::get_allocator() const [98]
+                0.00    0.00      16/17          std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const [57]
+[55]     0.0    0.00    0.00      17         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() const [55]
+-----------------------------------------------
+                0.00    0.00       1/17          std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&) [120]
+                0.00    0.00      16/17          std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const [57]
+[56]     0.0    0.00    0.00      17         std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&) [56]
+                0.00    0.00      17/18          unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [54]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [68]
+[57]     0.0    0.00    0.00      16         std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const [57]
+                0.00    0.00      16/17          std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&) [56]
+                0.00    0.00      16/17          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() const [55]
+-----------------------------------------------
+                0.00    0.00      16/16          void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[58]     0.0    0.00    0.00      16         std::vector<HCNode*, std::allocator<HCNode*> >::_S_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [58]
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_do_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&, std::integral_constant<bool, true>) [59]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [58]
+[59]     0.0    0.00    0.00      16         std::vector<HCNode*, std::allocator<HCNode*> >::_S_do_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&, std::integral_constant<bool, true>) [59]
+                0.00    0.00      16/16          HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [62]
+-----------------------------------------------
+                0.00    0.00      16/16          void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[60]     0.0    0.00    0.00      16         std::vector<HCNode*, std::allocator<HCNode*> >::_S_use_relocate() [60]
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [61]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_use_relocate() [60]
+[61]     0.0    0.00    0.00      16         std::vector<HCNode*, std::allocator<HCNode*> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [61]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_do_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&, std::integral_constant<bool, true>) [59]
+[62]     0.0    0.00    0.00      16         HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [62]
+                0.00    0.00      48/48          HCNode** std::__niter_base<HCNode**>(HCNode**) [52]
+                0.00    0.00      16/16          std::enable_if<std::__is_bitwise_relocatable<HCNode*, void>::value, HCNode**>::type std::__relocate_a_1<HCNode*, HCNode*>(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [63]
+-----------------------------------------------
+                0.00    0.00      16/16          HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [62]
+[63]     0.0    0.00    0.00      16         std::enable_if<std::__is_bitwise_relocatable<HCNode*, void>::value, HCNode**>::type std::__relocate_a_1<HCNode*, HCNode*>(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [63]
+-----------------------------------------------
+                0.00    0.00       4/12          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base() [77]
+                0.00    0.00       8/12          void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[64]     0.0    0.00    0.00      12         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long) [64]
+                0.00    0.00       9/9           std::__new_allocator<HCNode*>::deallocate(HCNode**, unsigned long) [66]
+-----------------------------------------------
+                0.00    0.00       1/9           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_create_storage(unsigned long) [101]
+                0.00    0.00       8/9           void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[65]     0.0    0.00    0.00       9         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long) [65]
+                0.00    0.00       9/9           std::__new_allocator<HCNode*>::allocate(unsigned long, void const*) [67]
+-----------------------------------------------
+                0.00    0.00       9/9           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long) [64]
+[66]     0.0    0.00    0.00       9         std::__new_allocator<HCNode*>::deallocate(HCNode**, unsigned long) [66]
+-----------------------------------------------
+                0.00    0.00       9/9           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long) [65]
+[67]     0.0    0.00    0.00       9         std::__new_allocator<HCNode*>::allocate(unsigned long, void const*) [67]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+[68]     0.0    0.00    0.00       8         std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [68]
+                0.00    0.00      32/148         std::vector<HCNode*, std::allocator<HCNode*> >::size() const [47]
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const [57]
+                0.00    0.00       8/8           unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [70]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&) [37]
+[69]     0.0    0.00    0.00       8         void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [69]
+                0.00    0.00      24/470         HCNode* const& std::forward<HCNode* const&>(std::remove_reference<HCNode* const&>::type&) [22]
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_use_relocate() [60]
+                0.00    0.00      16/24          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+                0.00    0.00      16/1414        __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::base() const [15]
+                0.00    0.00      16/16          std::vector<HCNode*, std::allocator<HCNode*> >::_S_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [58]
+                0.00    0.00       8/8           std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [68]
+                0.00    0.00       8/470         std::vector<HCNode*, std::allocator<HCNode*> >::begin() [21]
+                0.00    0.00       8/699         __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [18]
+                0.00    0.00       8/9           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long) [65]
+                0.00    0.00       8/231         operator new(unsigned long, void*) [40]
+                0.00    0.00       8/12          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long) [64]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [68]
+[70]     0.0    0.00    0.00       8         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [70]
+-----------------------------------------------
+                0.00    0.00       1/7           HCTree::HCTree() [95]
+                0.00    0.00       1/7           std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&) [120]
+                0.00    0.00       1/7           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+                0.00    0.00       4/7           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::~_Vector_impl() [76]
+[71]     0.0    0.00    0.00       7         std::__new_allocator<HCNode*>::~__new_allocator() [71]
+-----------------------------------------------
+                0.00    0.00       6/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&) [82]
+[72]     0.0    0.00    0.00       6         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_copy_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data const&) [72]
+-----------------------------------------------
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl() [80]
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&) [81]
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&) [82]
+[73]     0.0    0.00    0.00       6         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data() [73]
+-----------------------------------------------
+                0.00    0.00       5/5           void std::_Destroy<HCNode**>(HCNode**, HCNode**) [75]
+[74]     0.0    0.00    0.00       5         void std::_Destroy_aux<true>::__destroy<HCNode**>(HCNode**, HCNode**) [74]
+-----------------------------------------------
+                0.00    0.00       1/5           std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**) [119]
+                0.00    0.00       4/5           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+[75]     0.0    0.00    0.00       5         void std::_Destroy<HCNode**>(HCNode**, HCNode**) [75]
+                0.00    0.00       5/5           void std::_Destroy_aux<true>::__destroy<HCNode**>(HCNode**, HCNode**) [74]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base() [77]
+[76]     0.0    0.00    0.00       4         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::~_Vector_impl() [76]
+                0.00    0.00       4/7           std::__new_allocator<HCNode*>::~__new_allocator() [71]
+-----------------------------------------------
+                0.00    0.00       4/4           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+[77]     0.0    0.00    0.00       4         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base() [77]
+                0.00    0.00       4/4           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::~_Vector_impl() [76]
+                0.00    0.00       4/12          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long) [64]
+-----------------------------------------------
+                0.00    0.00       1/4           HCTree::HCTree() [95]
+                0.00    0.00       1/4           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+                0.00    0.00       1/4           HCTree::~HCTree() [96]
+                0.00    0.00       1/4           std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::~priority_queue() [113]
+[78]     0.0    0.00    0.00       4         std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+                0.00    0.00       4/24          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+                0.00    0.00       4/5           void std::_Destroy<HCNode**>(HCNode**, HCNode**) [75]
+                0.00    0.00       4/4           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base() [77]
+-----------------------------------------------
+                0.00    0.00       1/3           main [4]
+                0.00    0.00       1/3           std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&) [127]
+                0.00    0.00       1/3           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [106]
+[79]     0.0    0.00    0.00       3         std::__new_allocator<int>::~__new_allocator() [79]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base() [83]
+[80]     0.0    0.00    0.00       2         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl() [80]
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data() [73]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&) [103]
+                0.00    0.00       1/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(std::allocator<HCNode*> const&) [102]
+[81]     0.0    0.00    0.00       2         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&) [81]
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data() [73]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+[82]     0.0    0.00    0.00       2         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&) [82]
+                0.00    0.00       6/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_copy_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data const&) [72]
+                0.00    0.00       2/6           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data() [73]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<HCNode*, std::allocator<HCNode*> >::vector() [85]
+[83]     0.0    0.00    0.00       2         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base() [83]
+                0.00    0.00       2/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl() [80]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<int, std::allocator<int> >::~vector() [130]
+                0.00    0.00       1/2           std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&) [128]
+[84]     0.0    0.00    0.00       2         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [84]
+-----------------------------------------------
+                0.00    0.00       1/2           HCTree::HCTree() [95]
+                0.00    0.00       1/2           std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::priority_queue<std::vector<HCNode*, std::allocator<HCNode*> >, void>() [112]
+[85]     0.0    0.00    0.00       2         std::vector<HCNode*, std::allocator<HCNode*> >::vector() [85]
+                0.00    0.00       2/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base() [83]
+-----------------------------------------------
+                0.00    0.00       1/2           HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [139]
+                0.00    0.00       1/2           int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [140]
+[86]     0.0    0.00    0.00       2         std::__size_to_integer(unsigned long) [86]
+-----------------------------------------------
+                                 462             helper(HCNode*) [87]
+                0.00    0.00       1/1           HCTree::~HCTree() [96]
+[87]     0.0    0.00    0.00       1+462     helper(HCNode*) [87]
+                                 462             helper(HCNode*) [87]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[88]     0.0    0.00    0.00       1         FancyInputStream::FancyInputStream(char const*) [88]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[89]     0.0    0.00    0.00       1         FancyInputStream::~FancyInputStream() [89]
+-----------------------------------------------
+                0.00    0.00       1/1           FancyOutputStream::flush() [91]
+[90]     0.0    0.00    0.00       1         FancyOutputStream::flush_bitwise() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           FancyOutputStream::~FancyOutputStream() [93]
+[91]     0.0    0.00    0.00       1         FancyOutputStream::flush() [91]
+                0.00    0.00       1/1           FancyOutputStream::flush_bitwise() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[92]     0.0    0.00    0.00       1         FancyOutputStream::FancyOutputStream(char const*) [92]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[93]     0.0    0.00    0.00       1         FancyOutputStream::~FancyOutputStream() [93]
+                0.00    0.00       1/1           FancyOutputStream::flush() [91]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[94]     0.0    0.00    0.00       1         HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+                0.00    0.00     372/372         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [24]
+                0.00    0.00     257/257         std::vector<int, std::allocator<int> >::size() const [25]
+                0.00    0.00     231/231         HCNode::HCNode(int, unsigned char) [26]
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [35]
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::top() const [31]
+                0.00    0.00     231/231         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [34]
+                0.00    0.00     116/116         std::vector<HCNode*, std::allocator<HCNode*> >::operator[](unsigned long) [50]
+                0.00    0.00     116/116         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::size() const [49]
+                0.00    0.00       1/1           std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::priority_queue<std::vector<HCNode*, std::allocator<HCNode*> >, void>() [112]
+                0.00    0.00       1/1           std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::~priority_queue() [113]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[95]     0.0    0.00    0.00       1         HCTree::HCTree() [95]
+                0.00    0.00       1/2           std::vector<HCNode*, std::allocator<HCNode*> >::vector() [85]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&) [124]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&) [125]
+                0.00    0.00       1/4           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+                0.00    0.00       1/7           std::__new_allocator<HCNode*>::~__new_allocator() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[96]     0.0    0.00    0.00       1         HCTree::~HCTree() [96]
+                0.00    0.00       1/1           helper(HCNode*) [87]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::clear() [122]
+                0.00    0.00       1/4           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[97]     0.0    0.00    0.00       1         FancyInputStream::filesize() const [97]
+                0.00    0.00       1/1           std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [146]
+                0.00    0.00       1/1           std::fpos<__mbstate_t>::operator long() const [99]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+[98]     0.0    0.00    0.00       1         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::get_allocator() const [98]
+                0.00    0.00       1/17          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() const [55]
+-----------------------------------------------
+                0.00    0.00       1/1           FancyInputStream::filesize() const [97]
+[99]     0.0    0.00    0.00       1         std::fpos<__mbstate_t>::operator long() const [99]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::_Destroy<int*>(int*, int*) [141]
+[100]    0.0    0.00    0.00       1         void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [100]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&) [103]
+[101]    0.0    0.00    0.00       1         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_create_storage(unsigned long) [101]
+                0.00    0.00       1/9           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long) [65]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(std::allocator<HCNode*> const&) [123]
+[102]    0.0    0.00    0.00       1         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(std::allocator<HCNode*> const&) [102]
+                0.00    0.00       1/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&) [81]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&) [124]
+[103]    0.0    0.00    0.00       1         std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&) [103]
+                0.00    0.00       1/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&) [81]
+                0.00    0.00       1/1           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_create_storage(unsigned long) [101]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) [108]
+[104]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) [104]
+                0.00    0.00       1/1           std::__new_allocator<int>::allocate(unsigned long, void const*) [115]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) [110]
+[105]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [105]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data() [109]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [111]
+[106]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [106]
+                0.00    0.00       1/3           std::__new_allocator<int>::~__new_allocator() [79]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [111]
+[107]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [107]
+                0.00    0.00       1/1           std::__new_allocator<int>::deallocate(int*, unsigned long) [114]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) [110]
+[108]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) [108]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) [104]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [105]
+[109]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data() [109]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) [129]
+[110]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) [110]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [105]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) [108]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::~vector() [130]
+[111]    0.0    0.00    0.00       1         std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [111]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [107]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [106]
+-----------------------------------------------
+                0.00    0.00       1/1           HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[112]    0.0    0.00    0.00       1         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::priority_queue<std::vector<HCNode*, std::allocator<HCNode*> >, void>() [112]
+                0.00    0.00       1/2           std::vector<HCNode*, std::allocator<HCNode*> >::vector() [85]
+-----------------------------------------------
+                0.00    0.00       1/1           HCTree::build(std::vector<int, std::allocator<int> > const&) [94]
+[113]    0.0    0.00    0.00       1         std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::~priority_queue() [113]
+                0.00    0.00       1/4           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [107]
+[114]    0.0    0.00    0.00       1         std::__new_allocator<int>::deallocate(int*, unsigned long) [114]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) [104]
+[115]    0.0    0.00    0.00       1         std::__new_allocator<int>::allocate(unsigned long, void const*) [115]
+-----------------------------------------------
+                0.00    0.00       1/1           HCNode** std::uninitialized_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [133]
+[116]    0.0    0.00    0.00       1         HCNode** std::__uninitialized_fill_n<true>::__uninit_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [116]
+                0.00    0.00       1/1           HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [139]
+-----------------------------------------------
+                0.00    0.00       1/1           int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [134]
+[117]    0.0    0.00    0.00       1         int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [117]
+                0.00    0.00       1/1           int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [140]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&) [125]
+[118]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+                0.00    0.00       2/2           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&) [82]
+                0.00    0.00       2/24          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+                0.00    0.00       1/1           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::get_allocator() const [98]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(std::allocator<HCNode*> const&) [123]
+                0.00    0.00       1/7           std::__new_allocator<HCNode*>::~__new_allocator() [71]
+                0.00    0.00       1/4           std::vector<HCNode*, std::allocator<HCNode*> >::~vector() [78]
+                0.00    0.00       1/1           std::remove_reference<std::allocator<HCNode*>&>::type&& std::move<std::allocator<HCNode*>&>(std::allocator<HCNode*>&) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::clear() [122]
+[119]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**) [119]
+                0.00    0.00       1/24          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+                0.00    0.00       1/5           void std::_Destroy<HCNode**>(HCNode**, HCNode**) [75]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&) [124]
+[120]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&) [120]
+                0.00    0.00       1/17          std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&) [56]
+                0.00    0.00       1/7           std::__new_allocator<HCNode*>::~__new_allocator() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&) [124]
+[121]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&) [121]
+                0.00    0.00       1/24          std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [53]
+                0.00    0.00       1/1           HCNode** std::__uninitialized_fill_n_a<HCNode**, unsigned long, HCNode*, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::allocator<HCNode*>&) [135]
+-----------------------------------------------
+                0.00    0.00       1/1           HCTree::~HCTree() [96]
+[122]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::clear() [122]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**) [119]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+[123]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::vector(std::allocator<HCNode*> const&) [123]
+                0.00    0.00       1/1           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(std::allocator<HCNode*> const&) [102]
+-----------------------------------------------
+                0.00    0.00       1/1           HCTree::HCTree() [95]
+[124]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&) [124]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&) [120]
+                0.00    0.00       1/1           std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&) [103]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&) [121]
+-----------------------------------------------
+                0.00    0.00       1/1           HCTree::HCTree() [95]
+[125]    0.0    0.00    0.00       1         std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&) [125]
+                0.00    0.00       1/1           std::remove_reference<std::vector<HCNode*, std::allocator<HCNode*> >&>::type&& std::move<std::vector<HCNode*, std::allocator<HCNode*> >&>(std::vector<HCNode*, std::allocator<HCNode*> >&) [138]
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&) [127]
+[126]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&) [126]
+                0.00    0.00       1/18          unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [54]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) [129]
+[127]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&) [127]
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&) [126]
+                0.00    0.00       1/3           std::__new_allocator<int>::~__new_allocator() [79]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) [129]
+[128]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&) [128]
+                0.00    0.00       1/2           std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [84]
+                0.00    0.00       1/1           int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int const&, std::allocator<int>&) [136]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[129]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) [129]
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&) [127]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) [110]
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&) [128]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[130]    0.0    0.00    0.00       1         std::vector<int, std::allocator<int> >::~vector() [130]
+                0.00    0.00       1/2           std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [84]
+                0.00    0.00       1/1           std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [111]
+                0.00    0.00       1/1           void std::_Destroy<int*>(int*, int*) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [139]
+[131]    0.0    0.00    0.00       1         HCNode** std::__fill_n_a<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::random_access_iterator_tag) [131]
+                0.00    0.00       1/1           void std::__fill_a<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&) [142]
+-----------------------------------------------
+                0.00    0.00       1/1           int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [140]
+[132]    0.0    0.00    0.00       1         int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&, std::random_access_iterator_tag) [132]
+                0.00    0.00       1/1           void std::__fill_a<int*, int>(int*, int*, int const&) [143]
+-----------------------------------------------
+                0.00    0.00       1/1           HCNode** std::__uninitialized_fill_n_a<HCNode**, unsigned long, HCNode*, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::allocator<HCNode*>&) [135]
+[133]    0.0    0.00    0.00       1         HCNode** std::uninitialized_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [133]
+                0.00    0.00       1/1           HCNode** std::__uninitialized_fill_n<true>::__uninit_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [116]
+-----------------------------------------------
+                0.00    0.00       1/1           int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int const&, std::allocator<int>&) [136]
+[134]    0.0    0.00    0.00       1         int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [134]
+                0.00    0.00       1/1           int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&) [121]
+[135]    0.0    0.00    0.00       1         HCNode** std::__uninitialized_fill_n_a<HCNode**, unsigned long, HCNode*, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::allocator<HCNode*>&) [135]
+                0.00    0.00       1/1           HCNode** std::uninitialized_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [133]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&) [128]
+[136]    0.0    0.00    0.00       1         int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int const&, std::allocator<int>&) [136]
+                0.00    0.00       1/1           int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [134]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [118]
+[137]    0.0    0.00    0.00       1         std::remove_reference<std::allocator<HCNode*>&>::type&& std::move<std::allocator<HCNode*>&>(std::allocator<HCNode*>&) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&) [125]
+[138]    0.0    0.00    0.00       1         std::remove_reference<std::vector<HCNode*, std::allocator<HCNode*> >&>::type&& std::move<std::vector<HCNode*, std::allocator<HCNode*> >&>(std::vector<HCNode*, std::allocator<HCNode*> >&) [138]
+-----------------------------------------------
+                0.00    0.00       1/1           HCNode** std::__uninitialized_fill_n<true>::__uninit_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [116]
+[139]    0.0    0.00    0.00       1         HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [139]
+                0.00    0.00       1/2           std::__size_to_integer(unsigned long) [86]
+                0.00    0.00       1/1           HCNode** std::__fill_n_a<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::random_access_iterator_tag) [131]
+-----------------------------------------------
+                0.00    0.00       1/1           int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [117]
+[140]    0.0    0.00    0.00       1         int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [140]
+                0.00    0.00       1/2           std::__size_to_integer(unsigned long) [86]
+                0.00    0.00       1/1           int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&, std::random_access_iterator_tag) [132]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<int, std::allocator<int> >::~vector() [130]
+[141]    0.0    0.00    0.00       1         void std::_Destroy<int*>(int*, int*) [141]
+                0.00    0.00       1/1           void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [100]
+-----------------------------------------------
+                0.00    0.00       1/1           HCNode** std::__fill_n_a<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::random_access_iterator_tag) [131]
+[142]    0.0    0.00    0.00       1         void std::__fill_a<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&) [142]
+                0.00    0.00       1/1           __gnu_cxx::__enable_if<std::__is_scalar<HCNode*>::__value, void>::__type std::__fill_a1<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&, std::random_access_iterator_tag) [132]
+[143]    0.0    0.00    0.00       1         void std::__fill_a<int*, int>(int*, int*, int const&) [143]
+                0.00    0.00       1/1           __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*, int>(int*, int*, int const&) [145]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__fill_a<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&) [142]
+[144]    0.0    0.00    0.00       1         __gnu_cxx::__enable_if<std::__is_scalar<HCNode*>::__value, void>::__type std::__fill_a1<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__fill_a<int*, int>(int*, int*, int const&) [143]
+[145]    0.0    0.00    0.00       1         __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*, int>(int*, int*, int const&) [145]
+-----------------------------------------------
+                0.00    0.00       1/1           FancyInputStream::filesize() const [97]
+[146]    0.0    0.00    0.00       1         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [146]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2023 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [87] helper(HCNode*)        [80] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl() [37] std::vector<HCNode*, std::allocator<HCNode*> >::push_back(HCNode* const&)
+   [5] FancyInputStream::read_bit() [81] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::_Vector_impl(std::allocator<HCNode*> const&) [123] std::vector<HCNode*, std::allocator<HCNode*> >::vector(std::allocator<HCNode*> const&)
+  [48] FancyInputStream::read_int() [76] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl::~_Vector_impl() [85] std::vector<HCNode*, std::allocator<HCNode*> >::vector()
+   [9] FancyInputStream::read_byte() [64] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_deallocate(HCNode**, unsigned long) [124] std::vector<HCNode*, std::allocator<HCNode*> >::vector(unsigned long, HCNode* const&, std::allocator<HCNode*> const&)
+  [88] FancyInputStream::FancyInputStream(char const*) [101] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_create_storage(unsigned long) [78] std::vector<HCNode*, std::allocator<HCNode*> >::~vector()
+  [89] FancyInputStream::~FancyInputStream() [72] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_copy_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data const&) [125] std::vector<HCNode*, std::allocator<HCNode*> >::operator=(std::vector<HCNode*, std::allocator<HCNode*> >&&)
+   [7] FancyOutputStream::write_byte(unsigned char const&) [82] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_M_swap_data(std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data&) [50] std::vector<HCNode*, std::allocator<HCNode*> >::operator[](unsigned long)
+  [90] FancyOutputStream::flush_bitwise() [73] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_impl_data::_Vector_impl_data() [126] std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&)
+  [91] FancyOutputStream::flush() [53] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() [127] std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&)
+  [92] FancyOutputStream::FancyOutputStream(char const*) [102] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(std::allocator<HCNode*> const&) [128] std::vector<int, std::allocator<int> >::_M_fill_initialize(unsigned long, int const&)
+  [93] FancyOutputStream::~FancyOutputStream() [103] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base(unsigned long, std::allocator<HCNode*> const&) [129] std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&)
+  [26] HCNode::HCNode(int, unsigned char) [83] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_Vector_base() [130] std::vector<int, std::allocator<int> >::~vector()
+  [94] HCTree::build(std::vector<int, std::allocator<int> > const&) [77] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::~_Vector_base() [51] std::vector<int, std::allocator<int> >::operator[](unsigned long)
+  [95] HCTree::HCTree()      [104] std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) [131] HCNode** std::__fill_n_a<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::random_access_iterator_tag)
+  [96] HCTree::~HCTree()     [105] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [132] int* std::__fill_n_a<int*, unsigned long, int>(int*, unsigned long, int const&, std::random_access_iterator_tag)
+  [27] __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode* const* const&) [106] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [44] void std::__pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&)
+  [10] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::__normal_iterator(HCNode** const&) [107] std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long) [23] void std::__push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>&)
+  [41] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator--() [108] std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) [52] HCNode** std::__niter_base<HCNode**>(HCNode**)
+  [42] __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&&) [109] std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data() [62] HCNode** std::__relocate_a<HCNode**, HCNode**, std::allocator<HCNode*> >(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&)
+  [28] __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::_Iter_comp_val(HCNodePtrComp) [84] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [45] void std::__adjust_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp> >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, long, long, HCNode*, __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>)
+  [19] bool __gnu_cxx::__ops::_Iter_comp_val<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode*&) [110] std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) [63] std::enable_if<std::__is_bitwise_relocatable<HCNode*, void>::value, HCNode**>::type std::__relocate_a_1<HCNode*, HCNode*>(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&)
+  [43] __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::_Iter_comp_iter(HCNodePtrComp) [111] std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [86] std::__size_to_integer(unsigned long)
+  [17] bool __gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>::operator()<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >) [34] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::pop() [133] HCNode** std::uninitialized_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&)
+  [18] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::difference_type __gnu_cxx::operator-<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > > const&) [35] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::push(HCNode* const&) [134] int* std::uninitialized_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
+  [14] HCNodePtrComp::operator()(HCNode*&, HCNode*&) const [112] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::priority_queue<std::vector<HCNode*, std::allocator<HCNode*> >, void>() [135] HCNode** std::__uninitialized_fill_n_a<HCNode**, unsigned long, HCNode*, HCNode*>(HCNode**, unsigned long, HCNode* const&, std::allocator<HCNode*>&)
+   [6] FancyInputStream::good() const [113] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::~priority_queue() [136] int* std::__uninitialized_fill_n_a<int*, unsigned long, int, int>(int*, unsigned long, int const&, std::allocator<int>&)
+  [97] FancyInputStream::filesize() const [66] std::__new_allocator<HCNode*>::deallocate(HCNode**, unsigned long) [70] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+   [8] HCTree::decode(FancyInputStream&) const [67] std::__new_allocator<HCNode*>::allocate(unsigned long, void const*) [54] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  [29] __gnu_cxx::__normal_iterator<HCNode* const*, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [71] std::__new_allocator<HCNode*>::~__new_allocator() [16] std::remove_reference<HCNodePtrComp&>::type&& std::move<HCNodePtrComp&>(HCNodePtrComp&)
+  [15] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::base() const [114] std::__new_allocator<int>::deallocate(int*, unsigned long) [46] std::remove_reference<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>::type&& std::move<__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&>(__gnu_cxx::__ops::_Iter_comp_iter<HCNodePtrComp>&)
+  [11] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator*() const [115] std::__new_allocator<int>::allocate(unsigned long, void const*) [13] std::remove_reference<HCNode*&>::type&& std::move<HCNode*&>(HCNode*&)
+  [30] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator-(long) const [79] std::__new_allocator<int>::~__new_allocator() [137] std::remove_reference<std::allocator<HCNode*>&>::type&& std::move<std::allocator<HCNode*>&>(std::allocator<HCNode*>&)
+  [12] __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >::operator+(long) const [116] HCNode** std::__uninitialized_fill_n<true>::__uninit_fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&) [138] std::remove_reference<std::vector<HCNode*, std::allocator<HCNode*> >&>::type&& std::move<std::vector<HCNode*, std::allocator<HCNode*> >&>(std::vector<HCNode*, std::allocator<HCNode*> >&)
+  [98] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::get_allocator() const [117] int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) [139] HCNode** std::fill_n<HCNode**, unsigned long, HCNode*>(HCNode**, unsigned long, HCNode* const&)
+  [55] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_get_Tp_allocator() const [56] std::vector<HCNode*, std::allocator<HCNode*> >::_S_max_size(std::allocator<HCNode*> const&) [140] int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&)
+  [31] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::top() const [58] std::vector<HCNode*, std::allocator<HCNode*> >::_S_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&) [22] HCNode* const& std::forward<HCNode* const&>(std::remove_reference<HCNode* const&>::type&)
+  [49] std::priority_queue<HCNode*, std::vector<HCNode*, std::allocator<HCNode*> >, HCNodePtrComp>::size() const [118] std::vector<HCNode*, std::allocator<HCNode*> >::_M_move_assign(std::vector<HCNode*, std::allocator<HCNode*> >&&, std::integral_constant<bool, true>) [75] void std::_Destroy<HCNode**>(HCNode**, HCNode**)
+  [99] std::fpos<__mbstate_t>::operator long() const [59] std::vector<HCNode*, std::allocator<HCNode*> >::_S_do_relocate(HCNode**, HCNode**, HCNode**, std::allocator<HCNode*>&, std::integral_constant<bool, true>) [141] void std::_Destroy<int*>(int*, int*)
+  [68] std::vector<HCNode*, std::allocator<HCNode*> >::_M_check_len(unsigned long, char const*) const [119] std::vector<HCNode*, std::allocator<HCNode*> >::_M_erase_at_end(HCNode**) [142] void std::__fill_a<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&)
+  [47] std::vector<HCNode*, std::allocator<HCNode*> >::size() const [60] std::vector<HCNode*, std::allocator<HCNode*> >::_S_use_relocate() [143] void std::__fill_a<int*, int>(int*, int*, int const&)
+  [32] std::vector<HCNode*, std::allocator<HCNode*> >::begin() const [69] void std::vector<HCNode*, std::allocator<HCNode*> >::_M_realloc_insert<HCNode* const&>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNode* const&) [38] void std::pop_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp)
+  [33] std::vector<HCNode*, std::allocator<HCNode*> >::front() const [120] std::vector<HCNode*, std::allocator<HCNode*> >::_S_check_init_len(unsigned long, std::allocator<HCNode*> const&) [144] __gnu_cxx::__enable_if<std::__is_scalar<HCNode*>::__value, void>::__type std::__fill_a1<HCNode**, HCNode*>(HCNode**, HCNode**, HCNode* const&)
+  [57] std::vector<HCNode*, std::allocator<HCNode*> >::max_size() const [121] std::vector<HCNode*, std::allocator<HCNode*> >::_M_fill_initialize(unsigned long, HCNode* const&) [145] __gnu_cxx::__enable_if<std::__is_scalar<int>::__value, void>::__type std::__fill_a1<int*, int>(int*, int*, int const&)
+  [25] std::vector<int, std::allocator<int> >::size() const [61] std::vector<HCNode*, std::allocator<HCNode*> >::_S_nothrow_relocate(std::integral_constant<bool, true>) [39] void std::push_heap<__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp>(__gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, __gnu_cxx::__normal_iterator<HCNode**, std::vector<HCNode*, std::allocator<HCNode*> > >, HCNodePtrComp)
+  [24] std::vector<int, std::allocator<int> >::operator[](unsigned long) const [20] std::vector<HCNode*, std::allocator<HCNode*> >::end() [146] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [74] void std::_Destroy_aux<true>::__destroy<HCNode**>(HCNode**, HCNode**) [21] std::vector<HCNode*, std::allocator<HCNode*> >::begin() [40] operator new(unsigned long, void*)
+ [100] void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [122] std::vector<HCNode*, std::allocator<HCNode*> >::clear()
+  [65] std::_Vector_base<HCNode*, std::allocator<HCNode*> >::_M_allocate(unsigned long) [36] std::vector<HCNode*, std::allocator<HCNode*> >::pop_back()
